@@ -6,5 +6,6 @@
   </head>
   <body>
     <h1 >Chris's Webpage</h1>
+    <?php include("php/testing.php");?>
   </body>
 </html>
