@@ -1,5 +1,3 @@
-alert("main.js ran");
-
 function testFirebase(str) {
   var strObj = {
     string: str
@@ -10,7 +8,9 @@ function testFirebase(str) {
     }, function(error) {
       console.log('error' + error);
       error();
-    });
+    }
+  );
+  alert("main.js ran testFirebase");  
 }
 
 testFirebase("junk")
