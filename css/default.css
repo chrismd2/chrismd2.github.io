@@ -1,0 +1,10 @@
+:root{
+  --default_grn: #10461E;
+  --alt_grn:     #4c7456;
+  --default_blu: #1E1046;
+  --default_brn: #461E10;
+  --default_bgr: #c3d1c7;
+  --alt_bgr:     #88a38f;
+}
+h1, h2, h3, h4, h5, h6 {color: var(--default_grn);}
+body {background-color: var(--default_bgr)}
