@@ -4,7 +4,7 @@
 
 # Tool 1 title
 
-## Documentation
+#### Documentation
 
 ### A fun
 - Description
