@@ -2,7 +2,7 @@ function testFirebase(str) {
   var strObj = {
     string: str
   };
-  firebase.database().ref('subscription-entries').entries().set(strObj)
+  firebase.database().ref('messages').entries().set(strObj)
     .then(function(snapshot) {
       success();
     }, function(error) {
@@ -10,7 +10,7 @@ function testFirebase(str) {
       error();
     }
   );
-  alert("main.js ran testFirebase");  
+  alert("main.js ran testFirebase");
 }
 
 testFirebase("junk")
