@@ -1,4 +1,4 @@
-import firebase from "firebase/app";
+import * as firebase from "firebase/app";
 
 function testFirebase(str) {
   var strObj = {
@@ -15,4 +15,6 @@ function testFirebase(str) {
   alert("main.js ran testFirebase");
 }
 
-testFirebase("junk")
+export function test2(){
+  testFirebase("junk")
+}
